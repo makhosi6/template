@@ -1,0 +1,96 @@
+            @media only screen and (max-width: 900px) {
+                .img {
+                    height: 80vh;
+                }
+                .cont {
+                    height: 80vh;
+                    .our_blog {
+                        height: 80vh;
+                        div {
+                            margin-top: 30%;
+                        }
+                    }
+                }
+                .cards {
+                    display: grid !important;
+                    grid-template-columns: 1fr !important;
+                    grid-template-rows: 1fr 1fr 1fr !important;
+                    .card {
+                        font-size: 12px;
+                        .card-img-top {
+                            height: 250px !important;
+                        }
+                        .let {
+                            display: flex;
+                            flex-direction: row;
+                            .far {
+                                background-color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            @media only screen and (max-width: 875px) {
+                .card {
+                    .let {
+                        display: block !important;
+                    }
+                }
+            }
+            
+            @media only screen and (max-width: 565px) {
+                .cards {
+                    padding: 20px !important;
+                }
+            }
+            
+            @media only screen and (max-width: 450px) {
+                .cards {
+                    padding: 0 !important;
+                }
+                .section {
+                    padding: 10px !important;
+                }
+            }
+            
+            @media only screen and (max-width: 560px) {
+                .section {
+                    .card {
+                        margin: 0 !important;
+                        .let {
+                            margin: 10px !important;
+                            padding: 0 !important;
+                        }
+                    }
+                }
+            }
+            
+            @media only screen and (max-width: 580px) {
+                .cont {
+                    position: absolute;
+                    display: block !important;
+                    // background-color: rgba(46, 46, 46, 0.521);
+                    margin-bottom: 50px !important;
+                    .our_blog {
+                        top: 50px !important;
+                        height: unset;
+                        background-color: unset;
+                    }
+                    .desc {
+                        height: unset;
+                        background-color: unset;
+                    }
+                }
+            }
+            
+            @media only screen and (max-width: 400px) {
+                #dark {
+                    span {
+                        display: none !important;
+                        .icon-arrow-up {
+                            display: none;
+                        }
+                    }
+                }
+            }

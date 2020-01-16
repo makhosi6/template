@@ -1,0 +1,28 @@
+    .dark {
+        z-index: 1000;
+        background-color: #212529;
+        transform: rotate(270deg);
+        float: left !important;
+        right: 17px !important;
+        top: 50%;
+        position: fixed;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        padding: 10px 10px 10px 10px;
+        border: 2px solid rgb(223, 217, 217);
+        color: white;
+        font-weight: bold;
+        transition: ease-out;
+        transform-origin: right;
+        transition-duration: .2s;
+        &:hover {
+            padding-top: 7px;
+        }
+        span {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+    
+    // cccc
